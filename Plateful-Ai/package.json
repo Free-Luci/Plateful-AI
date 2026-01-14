@@ -1,0 +1,38 @@
+{
+  "name": "plateful-ai",
+  "version": "1.0.0",
+  "description": "AI-powered ingredient-to-meal planning assistant",
+  "license": "ISC",
+  "author": "sumit",
+  "type": "commonjs",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@google/genai": "^1.27.0",
+    "@parcel/transformer-css": "^2.16.0",
+    "@reduxjs/toolkit": "^2.6.1",
+    "@tailwindcss/postcss": "^4.1.16",
+    "dotenv": "^17.2.3",
+    "lucide-react": "^0.501.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-icons": "^5.5.0",
+    "react-redux": "^9.2.0",
+    "react-router": "^7.5.0",
+    "redux": "^5.0.1",
+    "tailwindcss": "^4.1.16"
+  },
+  "devDependencies": {
+    "@parcel/watcher": "^2.5.1",
+    "@swc/core": "^1.13.21",
+    "@swc/helpers": "^0.5.17",
+    "@tailwindcss/oxide": "^4.1.16",
+    "daisyui": "^5.3.8",
+    "parcel": "^2.16.0",
+    "postcss": "^8.5.6",
+    "postcss-preset-env": "^10.4.0"
+  }
+}

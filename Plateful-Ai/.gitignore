@@ -1,0 +1,9 @@
+# Parcel build output
+dist/
+.parcel-cache/
+
+# Node dependencies
+node_modules/
+
+# Environment variables
+.env
